@@ -638,7 +638,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>igfxonln=1 alcid=66 dk.e1000=0</string>
+				<string>shikigva=128 alcid=66 dk.e1000=0</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -698,7 +698,6 @@
 		<key>WriteFlash</key>
 		<true/>
 	</dict>
-
 	<key>UEFI</key>
 	<dict>
 		<key>APFS</key>
