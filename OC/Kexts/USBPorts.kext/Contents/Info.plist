@@ -48,7 +48,7 @@
 				<integer>4700</integer>
 				<key>port-count</key>
 				<data>
-				DgAAAA==
+				CwAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
@@ -160,17 +160,6 @@
 						<key>port</key>
 						<data>
 						CwAAAA==
-						</data>
-					</dict>
-					<key>HS14</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>name</key>
-						<string>HS14</string>
-						<key>port</key>
-						<data>
-						DgAAAA==
 						</data>
 					</dict>
 				</dict>
