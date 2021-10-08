@@ -586,6 +586,8 @@
 			<true/>
 			<key>AllowToggleSip</key>
 			<false/>
+			<key>BlacklistAppleUpdate</key>
+			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
@@ -806,7 +808,7 @@
 			<key>ForceResolution</key>
 			<false/>
 			<key>GopPassThrough</key>
-			<string></string>
+			<string>Disabled</string>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
 			<key>ProvideConsoleGop</key>
