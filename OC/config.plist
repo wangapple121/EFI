@@ -115,12 +115,12 @@
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,28,0/0,0</string>
+				<key>device-id</key>
+				<data>8hUAAA==</data>
 				<key>device_type</key>
 				<string>Ethernet controller</string>
 				<key>model</key>
 				<string>Intel(R) Ethernet Controller I225-V</string>
-				<key>device-id</key>
-				<data>8hUAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -439,35 +439,35 @@
 		<key>Patch</key>
 		<array>
 			<dict>
-                <key>Arch</key>
-                <string>Any</string>
-                <key>Base</key>
-                <string>__Z18e1000_set_mac_typeP8e1000_hw</string>
-                <key>Comment</key>
-                <string>Enables Intel Ethernet-Controller I225-V natively.</string>
-                <key>Count</key>
-                <integer>1</integer>
-                <key>Enabled</key>
-                <true/>
-                <key>Find</key>
-                <data>8hUAAA==</data>
-                <key>Identifier</key>
-                <string>com.apple.driver.AppleIntelI210Ethernet</string>
-                <key>Limit</key>
-                <integer>0</integer>
-                <key>Mask</key>
-                <data></data>
-                <key>MaxKernel</key>
-                <string>20.4.0</string>
-                <key>MinKernel</key>
-                <string>19.0.0</string>
-                <key>Replace</key>
-                <data>8xUAAA==</data>
-                <key>ReplaceMask</key>
-                <data></data>
-                <key>Skip</key>
-                <integer>0</integer>
-            </dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>Base</key>
+				<string>__Z18e1000_set_mac_typeP8e1000_hw</string>
+				<key>Comment</key>
+				<string>Enables Intel Ethernet-Controller I225-V natively.</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>8hUAAA==</data>
+				<key>Identifier</key>
+				<string>com.apple.driver.AppleIntelI210Ethernet</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string>20.4.0</string>
+				<key>MinKernel</key>
+				<string>19.0.0</string>
+				<key>Replace</key>
+				<data>8xUAAA==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -551,7 +551,7 @@
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
-			<false/>
+			<true/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
@@ -586,11 +586,11 @@
 			<true/>
 			<key>AllowToggleSip</key>
 			<false/>
-			<key>BlacklistAppleUpdate</key>
-			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
+			<false/>
+			<key>BlacklistAppleUpdate</key>
 			<false/>
 			<key>DmgLoading</key>
 			<string>Signed</string>
@@ -660,7 +660,7 @@
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
-				<data></data>
+				<data>emgtSGFudDotMTY4OTk=</data>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
@@ -893,9 +893,9 @@
 			<false/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
-			<key>ForgeUefiSupport</key>
-			<false/>
 			<key>ForceOcWriteFlash</key>
+			<false/>
+			<key>ForgeUefiSupport</key>
 			<false/>
 			<key>IgnoreInvalidFlexRatio</key>
 			<false/>
