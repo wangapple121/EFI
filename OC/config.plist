@@ -468,6 +468,8 @@
 			<false/>
 			<key>AppleXcpmForceBoost</key>
 			<false/>
+			<key>CustomPciSerialDevice</key>
+			<false/>
 			<key>CustomSMBIOSGuid</key>
 			<false/>
 			<key>DisableIoMapper</key>
@@ -479,6 +481,8 @@
 			<key>ExtendBTFeatureFlags</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
+			<false/>
+			<key>ForceAquantiaEthernet</key>
 			<false/>
 			<key>ForceSecureBootScheme</key>
 			<false/>
@@ -517,6 +521,13 @@
 	<dict>
 		<key>BlessOverride</key>
 		<array/>
+		<key>Serial</key>
+		<dict>
+			<key>Init</key>
+			<false />
+			<key>Override</key>
+			<false />
+		</dict>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -558,10 +569,10 @@
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
-			<key>SerialInit</key>
-			<false/>
 			<key>SysReport</key>
 			<false/>
+			<key>LogModules</key>
+			<string>*</string>
 			<key>Target</key>
 			<integer>0</integer>
 		</dict>
@@ -569,12 +580,8 @@
 		<array/>
 		<key>Security</key>
 		<dict>
-			<key>AllowNvramReset</key>
-			<true/>
 			<key>AllowSetDefault</key>
 			<true/>
-			<key>AllowToggleSip</key>
-			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
@@ -668,8 +675,6 @@
 				<string>boot-args</string>
 			</array>
 		</dict>
-		<key>LegacyEnable</key>
-		<false/>
 		<key>LegacyOverwrite</key>
 		<false/>
 		<key>LegacySchema</key>
@@ -819,6 +824,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>LoadEarly</key>
+				<false />
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
 			</dict>
@@ -829,6 +836,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>LoadEarly</key>
+				<false />
 				<key>Path</key>
 				<string>OpenHfsPlus.efi</string>
 			</dict>
